@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Fugaz+One&display=swap');
+
+body{
+ background: rgb(71, 73, 212);   
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 100px;
+    transition: 0.5s;
+    font-family: 'Fugaz One', cursive;
+}
+
+/*h1:hover{
+    color: rgb(228, 2, 2);
+    font-size: 80px;
+}
+*/
+h2{
+    text-align: center;
+    font-Size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Fugaz One';
+
+}
+
+a img{
+    width: 50px;
+}
+
+#space{
+    width: 100%;
+}
+
+#algoritmos{
+    background: url("../img/Demons.png");
+    background-size: cover;
+    background-repeat: none;
+    text-align: center;
+    padding: 100px;
+}
+
+#algoritmos h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+    transition: 0.5s;
+    font-family: 'Fugaz One', cursive;
+}
+
+#algoritmos h1:hover{
+    color: rgb(228, 2, 2);
+    font-size: 80px;
+}
+
+#algoritmos button{
+    padding: 12px 40px;
+    font-size: 20px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    margin: 20px 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: wavy;
+    transition: all ease 0.5s;
+    background:#10B87B;    
+}
